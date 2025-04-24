@@ -4,6 +4,8 @@ App Overview:
 
 
 Unit test Results
+![image](https://github.com/user-attachments/assets/725f6c04-7c02-45db-abb2-d4804133fb33)
+
 
 ![image](https://github.com/user-attachments/assets/72950ac8-25e1-4fbc-aaf1-e5b555540673)
 
@@ -11,7 +13,6 @@ Playwright E2E results
 
 ![image](https://github.com/user-attachments/assets/2765dd47-de1e-4d86-9ed0-1159848d6081)
 
-![image](https://github.com/user-attachments/assets/df223f48-4dde-4c72-8bf1-b7a9133f5fca)
 
 
 
