@@ -10,7 +10,9 @@ Unit test Results
 Playwright E2E results
 
 ![image](https://github.com/user-attachments/assets/2765dd47-de1e-4d86-9ed0-1159848d6081)
-![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/df223f48-4dde-4c72-8bf1-b7a9133f5fca)
+
 
 
 # Getting Started with Create React App
