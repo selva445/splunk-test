@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+playwright-report
+test-results
 # testing
 /coverage
 

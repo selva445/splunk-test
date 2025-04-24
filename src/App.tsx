@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Container, Typography, Divider } from '@mui/material';
+import ConfigurationForm from './components/ConfigurationForm';
+import ResultDisplay from './components/ResultDisplay';
+
+interface ServerModel {
+  model: string;
+  rule: number;
+}
 
 function App() {
+  const [results, setResults] = React.useState<ServerModel[]>([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="sm" sx={{ mt: 4 }}>
+      <Typography variant="h4" gutterBottom>
+        Server Composer
+      </Typography>
+      <ConfigurationForm onEvaluate={setResults} />
+      <Divider sx={{ my: 4 }} />
+      <ResultDisplay results={results} />
+    </Container>
   );
 }
 
